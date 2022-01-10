@@ -29,6 +29,10 @@ import {Route} from 'react-router-dom';
 # 6. pass component using 'component' prop with route:
 <img src="picS/render using component prop.JPG"  width="60%">
 
+### a. When using component to pass: the route function passese some extra info about routing
+### b. if we want to see the same information for Booklist then: 'withRouter' need to be used
+<img src="picS/withRoute.JPG"  width="40%">
+
 # 7. Stop reload. swithc option without reloading whole page. 'link' component:
 ### using link component --> we can make the page more dynamic. it will only load the changes, not the whole page.
 ```
@@ -42,3 +46,25 @@ import {Route} from 'react-router-dom';
 ### using NavLink component --> we can make the page more dynamic. it will only load the changes, not the whole page.
 <img src="picS/NavLink import.JPG"  width="50%">
 <img src="picS/NavLink.JPG"  width="50%">
+
+# 9. route from obj link. make each obj as link
+ <img src="picS/route from obj link.JPG"  width="90%">
+
+## Now, see object id on url with the passed link: (but this thing has a better solution. step 10)
+<img src="picS/see object id on url with the passed link.JPG"  width="90%">
+
+# 10. switch: import switch, and take all route inside the switch. 
+### first see video about switch in this reposetory.
+### switch never call route more than one at a time. 
+<img src="picS/switchimport.JPG"  width="90%">
+<img src="picS/switch impliment.JPG"  width="90%">
+
+# 11. Redirect: easy.
+## see the video with this reposetory.
+```
+1. import redirect form react dom
+2. structure
+      <Redirect from="/" to="/books" />
+      // It means: some one tries to go "/" and he will be directed to '/books'
+```
+
