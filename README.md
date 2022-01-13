@@ -1,4 +1,5 @@
 ### react-router-basic : 
+<img src="picS/react router dom v6.JPG"  width="70%">
 <hr>
 
 # 1st:  install packages: react-router, react-router-dom.
